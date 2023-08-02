@@ -1,0 +1,13 @@
+.contact_card {
+  transition: all 0.2s;
+}
+
+.contact_card:hover {
+  background: var(--bs-primary) !important;
+  color: var(--bs-white);
+  cursor: pointer;
+}
+
+.contact_card p:hover {
+  color: var(--bs-white) !important;
+}

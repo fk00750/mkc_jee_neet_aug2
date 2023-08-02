@@ -1,0 +1,22 @@
+.section_head h6 {
+  letter-spacing: 0.75px;
+}
+
+.section_head h1 {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .section_head {
+    margin-bottom: 50px;
+  }
+
+  .section_head h6 {
+    text-align: center;
+  }
+
+  .section_head h1 {
+    text-align: center;
+  }
+}

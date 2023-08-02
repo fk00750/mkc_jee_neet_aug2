@@ -1,0 +1,14 @@
+.hero_head {
+  padding-top: 180px;
+  padding-bottom: 40px;
+  background-image: url('https://img.majorkalshiclasses.com/images/file_1689030739098.jpeg');
+}
+
+.hero_head h6 {
+  letter-spacing: 1px;
+}
+
+.hero_head h1 {
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}

@@ -1,0 +1,61 @@
+.feature_wrapper {
+  background-color: var(--bs-primary);
+  position: relative;
+  min-height: 320px;
+}
+
+.feature_wrapper::after {
+  content: "";
+  background: url('../../../public/images/shape-bg.png');
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.feature_section_inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.let_info_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+  .let_info h6,
+  .let_info h1 {
+    text-align: center;
+  }
+
+  .let_info_button {
+    display: block;
+    padding-top: 24px;
+  }
+
+  .let_info_button button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .let_info_button a {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}

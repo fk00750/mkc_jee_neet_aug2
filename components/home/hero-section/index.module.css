@@ -1,0 +1,181 @@
+.hero_wrapper {
+  height: 110vh;
+  background: url('https://img.majorkalshiclasses.com/images/file_1689030739098.jpeg');
+  overflow: hidden;
+}
+
+.hero_info_box {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+
+.hero_info {
+  margin-left: 50px;
+  position: relative;
+}
+
+.hero_info h6 {
+  color: var(--bs-primary);
+  margin-left: 60px;
+  letter-spacing: 3px;
+}
+
+.hero_info h6::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 50px;
+  height: 2px;
+  background-color: var(--bs-primary);
+}
+
+.hero_info h1 {
+  font-size: 62px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.hero_info p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-bottom: 25px;
+  color: #6F6B80;
+  line-height: 30px;
+  margin-right: 100px;
+}
+
+.hero_info button h5 {
+  letter-spacing: 0.5px;
+}
+
+.hero_image {
+  height: 100vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  position: relative;
+}
+
+.hero_image img {
+  margin-bottom: -180px;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero_image_bg {
+  position: absolute;
+  bottom: 120px;
+  z-index: 0;
+}
+
+.hero_enquiry {
+  display: flex;
+  align-items: center;
+  background: var(--bs-white);
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.hero_enquiry input {
+  width: calc(100% - 240px);
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: var(--bs-background);
+  border-color: var(--bs-background) !important;
+}
+
+.hero_enquiry button {
+  width: 240px;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+
+  .hero_wrapper {
+    height: auto;
+  }
+
+  .hero_info_box {
+    height: auto;
+    margin-top: 130px;
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+
+  .hero_info {
+    margin-left: auto;
+  }
+
+  .hero_info h6 {
+    margin-left: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .hero_info h6::before {
+    width: 40px;
+  }
+
+  .hero_info h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+
+  .hero_info p {
+    font-size: 15px;
+    letter-spacing: 0.01px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-right: 0px;
+  }
+
+  .hero_info button h5 {
+    font-size: 16px;
+  }
+
+  .hero_image {
+    height: auto;
+  }
+
+  .hero_image img {
+    margin-bottom: -120px;
+  }
+
+  .hero_image_bg {
+    display: none;
+  }
+
+  .hero_enquiry {
+    display: block;
+    align-items: center;
+    background: var(--bs-white);
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+  }
+
+  .hero_enquiry input {
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: var(--bs-background);
+    border-color: var(--bs-background) !important;
+  }
+
+  .hero_enquiry button {
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 6px !important;
+  }
+}
